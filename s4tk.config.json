@@ -1,0 +1,31 @@
+{
+  "buildInstructions": {
+    "source": "src",
+    "destinations": [
+      "out"
+    ],
+    "packages": [
+      {
+        "filename": "brainblasted_TemplateChanges",
+        "include": [
+          "**/*"
+        ],
+        "exclude": []
+      }
+    ]
+  },
+  "buildSettings": {
+    "allowEmptyPackages": false,
+    "allowFolderCreation": true,
+    "allowMissingSourceFiles": false,
+    "allowPackageOverlap": false,
+    "allowResourceKeyOverrides": false,
+    "outputBuildSummary": "full"
+  },
+  "stringTableSettings": {
+    "allowStringKeyOverrides": false,
+    "defaultStringTable": "src/strings/default.stbl.json",
+    "generateMissingLocales": true,
+    "mergeStringTablesInSamePackage": true
+  }
+}
